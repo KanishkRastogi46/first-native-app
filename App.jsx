@@ -63,12 +63,12 @@ export default App
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        flexGrow: 1,
         gap: 20,
     },
     image:{
         width: "100%",
-        height: "50%",
+        height: 200,
     },
     text:{
         fontSize: 20,
